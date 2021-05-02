@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
     loc.appendChild(tasksList);
   });
 //   loc.addEventListener("click", (e) => {
-    
+//     e.preventDefault();
+//     for (let i = 0; i < e.target.value.length; i++){
+//       if (input.value === e.target.value[i].textContent){
+//         tasks.removeChild(e.target.value[i]);
+//       }
+//       }
+//       });
 // })
-})
